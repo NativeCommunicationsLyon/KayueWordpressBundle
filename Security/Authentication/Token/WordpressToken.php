@@ -12,6 +12,7 @@ class WordpressToken extends AbstractToken
      */
     public function __construct(UserInterface $user, array $roles = array())
     {
+        $roles = array_unique(array_merge($roles, $user->getRoles()));
         parent::__construct($roles);
         $this->setUser($user);
     }
