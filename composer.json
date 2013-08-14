@@ -1,11 +1,11 @@
 {
-    "name": "kayue/kayue-wordpress-bundle",
+    "name": "nativecommunications/kayue-wordpress-bundle",
     "type": "symfony-bundle",
     "description": "Support for authenticating WordPress users in Symfony2.",
     "keywords":    [
         "authentication", "firewall", "wordpress", "symfony", "symfony2", "security"
     ],
-    "homepage": "http://github.com/kayue/KayueWordpressBundle",
+    "homepage": "http://github.com/NativeCommunicationsLyon/KayueWordpressBundle",
     "license": "MIT",
 
     "require": {
